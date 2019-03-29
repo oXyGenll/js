@@ -1,3 +1,3 @@
 # js
 
-Hello
+Hexlet practice
