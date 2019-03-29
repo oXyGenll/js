@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 /* sumSquareDifference.js
 Сумма квадратов первых десяти натуральных чисел это 12 + 22 + 32 + ... + 10 2 = 385.
 
@@ -15,7 +16,7 @@ function sumSquare(n) {
 
   var square = 0;
   for (var i = 0; i <= n; i++) {
-    let tmp = i*i;
+    let tmp = i * i;
     square = tmp + square;
   }
   return square;
@@ -23,13 +24,13 @@ function sumSquare(n) {
 }
 
 function squareSum(n) {
-  
+
   var square = 0;
   for (var i = 0; i <= n; i++) {
     var tmp = i;
     square = tmp + square;
   }
-  return square*square;
+  return square * square;
 
 }
 
