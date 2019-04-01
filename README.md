@@ -1,3 +1,3 @@
 # js
 
-Hexlet practice
+Hexlet practice test
