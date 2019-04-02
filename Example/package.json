@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-   "prettier": "^1.16.4"
+    "prettier": "^1.16.4"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
