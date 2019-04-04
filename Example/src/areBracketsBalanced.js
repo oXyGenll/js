@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 /* Реализуйте и экспортируйте функцию по умолчанию, которая принимает на вход строку, состоящую только из открывающих и закрывающих круглых скобок, и проверяет является ли эта строка корректной. Пустая строка (отсутствие скобок) считается корректной.
 
 Строка считается корректной (сбалансированной), если содержащаяся в ней скобочная структура соответствует требованиям:
@@ -9,11 +8,11 @@
 import areBracketsBalanced from 'roundBracketsValidator';
 
 areBracketsBalanced('(())');  // true
-areBracketsBalanced('((())'); // false*/
+areBracketsBalanced('((())'); // false */
 
 const areBracketsBalanced = str => {
-  let openBrackets = str.split("(").length - 1;
-  let closeBrackets = str.split(")").length - 1;
+  const openBrackets = str.split("(").length - 1;
+  const closeBrackets = str.split(")").length - 1;
 
   if (openBrackets !== closeBrackets) return false;
 
