@@ -15,7 +15,7 @@ const areBracketsBalanced = str => {
   let openBrackets = str.split("(").length - 1;
   let closeBrackets = str.split(")").length - 1;
 
-  if (openBrackets != closeBrackets) return false;
+  if (openBrackets !== closeBrackets) return false;
 
   let tmpStr1 = "";
   let tmpStr2 = "";
